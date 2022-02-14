@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #1c2225;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.navbar .nav-link{
+    color: white;
+    padding-right: 20px;
+}
+.navbar .signin{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    padding-right: 20px;
+}
+
+
+
+/* landing page styling  */
+.landing-page{
+    background-color: #000;
+    color: white;
+}
+
+.welcome{
+    font-size: 30px;
+}
+.welcome-para{
+    font-size: 14px;
+}
+
+.landing-image{
+    position: relative;
+    /* margin: 0px 120px; */
+    min-height: 65vh;
+    background-size: cover;
+    left: 15%;
+    
+}
+
+.landing-page1{
+    margin-top: 4rem;
+}
+.text-landing{
+    margin-top: 6rem;
+}
+
+
+.credit{
+    position: relative;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 50px;
+}
+/* favourite section styling  */
+
+.grids-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+}
+.grids-1{
+    flex: 1 33%;
+}
+
+
+.grids-1 .image-11:hover{
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 1px 6px 4px #333;
+}
+.grids-section .grids-1 .image-11{
+    margin: 3px;
+}
+
+
+/* membership styling  */
+ .y{
+    margin-top: 60px;
+    margin-left: 42px;
+  }
+.k3{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -520px;
+    margin-left: 40px;
+  }
+.t3{
+    color: #fff;
+    font-size: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+    font-family: sans-serif;
+  }
+.t4{
+    color: #fff;
+    font-size: 15px;
+  margin-top: 20px;
+  margin-left: 40px;
+    font-family: Sanchez;
+  }
+
+
+/* remote styling  */
+.z{
+    margin-top: 87px;
+    margin-left: 42px;
+  }
+.k4{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -520px;
+    margin-left: 740px;
+  }
+.t5{
+    color: #fff;
+    font-size: 20px;
+  margin-top: 20px;
+  margin-left: 740px;
+    font-family: sans-serif;
+  }
+
+
+/* family friendly styling  */
+.r{
+    margin-top: 87px;
+    background-color: white;
+    height:600px;
+    width: 1550px;
+  }
+
+
+.h{
+    margin-top: 60px;
+    width: 1520px;
+    height: 600px;
+  }
+.k8{
+    color: #fff;
+    font-size: 35px;
+    margin-top: -520px;
+    margin-left: 140px;
+  }
+.t8{
+    color: #fff;
+    font-size: 20px;
+  margin-top: 20px;
+  margin-left: 140px;
+    font-family: sans-serif;
+  }
+
+
+/* footer styling  */
+.gr{
+    background-color: rgb(41, 40, 40);
+    height:240px;
+    width: 1550px;
+  }
+.gr a{
+    text-decoration: none;
+    margin: 100px;
+}
+.p1{
+    width: 150px;
+    height: 60px;
+    mix-blend-mode: lighten;
+    margin-top: 150px;
+    margin-left: 600px;
+  }
+
+
+
+
+
+
+
+
+/* favourite section styling  */
+
+.favourite{
+    margin-top: 5rem;
+}
+
+
+/* responsive  */
+
+@media screen and (max-width: 1409px){
+    .landing-image{
+        min-height: 45vh;
+        left: 23%;
+
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .landing-image{
+        min-height: 40vh;
+
+        left: 25%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1024px){
+    .landing-image{
+        min-height: 35vh;
+        left: 15%;
+
+    }
+
+}
+@media screen and (max-width: 991px){
+    .landing-image{
+        min-height: 35vh;
+        left: 15%;
+
+    }
+
+}
+@media screen and (max-width: 975px){
+    .landing-image{
+        margin-right: 100px;
+        min-height: 35vh;
+        left: 15%;
+
+
+
+    }
+
+ 
+
+}
+@media screen and (max-width: 600px){
+    .landing-image{
+        margin-right: 100px;
+        min-height: 15vh;
+
+
+
+
+    }
+    .welcome{
+        font-size: 20px;
+    }
+
+    
+    
+
+ 
+
+}
+@media screen and (max-width: 434px){
+    .landing-image{
+        min-height: 13vh;
+        left: 15%;
+
+    }
+    .free-trial{
+        font-size: 15px;
+    }
+
+ 
+
+}
